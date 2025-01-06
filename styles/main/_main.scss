@@ -29,7 +29,11 @@ body {
 
     &_logo {
         width: 198px;
-        height: 44px;        
+        height: 44px;
+        
+        &_img {
+            padding-top: 4px;
+        }
     }
 
     &_input {
@@ -100,31 +104,110 @@ body {
     padding-top: 64px;
 }
 
-.furniture_for_content {
+.furniture_for {
+    padding-top: 32px;
     display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: 856px;
+    column-gap: 32px;
+    row-gap: 32px;
+
+    &_item {
+        grid-column: span 4;
+        height: 415px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 41.45px;
+        color: #fff;
+
+        &_text {
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 58.51px;       
+        }
     
+        &_1 {
+            background-image: url(images/furniture_for/first.jpg);
+        }
+        &_2 {
+            background-image: url(images/furniture_for/second.jpg);
+        }
+        &_3 {
+            background-image: url(images/furniture_for/third.jpg);
+        }
+        &_4 {
+            background-image: url(images/furniture_for/fourth.jpg);
+        }
+        &_5 {
+            background-image: url(images/furniture_for/fifth.jpg);
+        }
+
+        &_bigger {
+            grid-column: span 6;
+        }
+    }
 }
 
-.furniture_for {
-    &_text {
+
+.product_box {
+    padding-top: 64px;
+}
+
+.product_content {
+    display: flex;
+    column-gap: 32px;
+    padding-top: 32px;
+}
+
+.product {
+    width: 379px;
+
+    &_special {
         font-size: 48px;
         font-weight: 600;
-        line-height: 58.51px;       
+        line-height: 58.51px;
     }
 
-    &_1 {
-        background-image: url();
+    &_img {
+        height: 250px;
     }
-    &_2 {
-        background-image: url();
+
+    &_name {
+        padding-top: 10px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29.26px;      
     }
-    &_3 {
-        background-image: url();
+
+    &_text {
+        padding-top: 8px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.07px;
+        color: #888;
     }
-    &_4 {
-        background-image: url();
-    }
-    &_5 {
-        background-image: url();
+
+    &_price {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 29.26px;
+
+        &_sale {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 29.26px;
+            text-align: left;
+            text-decoration-line: line-through;
+            color: #888;
+        }
+
+        &_box {
+            display: flex;
+            column-gap: 32px;
+            padding-top: 12px;
+        }
     }
 }
