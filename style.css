@@ -15,5 +15,7 @@ body {
 .main_box {
   height: 735px;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-image: url(images/main_images/main_bgi);
+  background-position: center;
+  background-size: 100%;
 }/*# sourceMappingURL=style.css.map */
