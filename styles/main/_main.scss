@@ -178,10 +178,11 @@ body {
     }
 
     &_name {
-        padding-top: 10px;
         font-size: 24px;
         font-weight: 500;
-        line-height: 29.26px;      
+        line-height: 29.26px;
+        text-decoration: none;
+        color: #000;    
     }
 
     &_text {
@@ -232,22 +233,83 @@ body {
 .footer_box {
     background-color: #F7F6F6;
     background-size: cover;
+    height: 207px;
 }
 .footer_content {
     display: flex;
+    padding-top: 32px;
 }
 
 .footer_menu {
     display: flex;
     flex-direction: column;
+    row-gap: 12px;
 
-    &_logo {
-        
+    &_zero {
+        padding-right: 212px;
+    }
+
+    &_first {
+        padding-right: 129px;
+    }
+
+    &_second {
+        padding-right: 192px;
+    }
+
+    &_third {
+        row-gap: 8px;
     }
 
     &_h1 {
         font-size: 24px;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 29.26px;       
+    }
+
+    &_links {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.07px;
+        color: #888888;
+        text-decoration: none;
+    }
+
+    &_social {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    &_p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14.63px;     
+    }
+
+    &_input {
+        width: 260px;
+        height: 40px;
+        border-radius: 16px;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        padding-left: 17px;
+        padding-right: 17px;
+
+        &::placeholder {
+            font-family: 'Montserrat';
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 14.63px;
+            color: #C4C4C4;
+        }
+    }
+
+    &_button {
+        width: 260px;
+        height: 40px;
+        border-radius: 16px;
+        background: #DED7D769;
+        border: transparent;
+        font-family: 'Montserrat';
     }
 }
