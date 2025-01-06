@@ -159,11 +159,13 @@ body {
 .product_content {
     display: flex;
     column-gap: 32px;
+    row-gap: 56px;
     padding-top: 32px;
+    flex-wrap: wrap;
 }
 
 .product {
-    width: 379px;
+    width: 378px;
 
     &_special {
         font-size: 48px;
