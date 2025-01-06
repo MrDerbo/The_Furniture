@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -296,4 +297,81 @@ body {
   background: rgba(222, 215, 215, 0.4117647059);
   border: transparent;
   font-family: "Montserrat";
+}
+
+.main_box_catalog {
+  background-image: url(images/main_images/catalog_bgi.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_text_catalog h1 {
+  padding-top: 128px;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 70px;
+  color: #fff;
+}
+
+.catalog_box {
+  padding-top: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+.catalog_left {
+  display: flex;
+}
+.catalog_left_links {
+  text-decoration: none;
+  color: #000;
+}
+.catalog_left_p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.catalog_right {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.catalog_right_select {
+  position: relative;
+  width: 182px;
+}
+.catalog_right_select select {
+  display: block;
+  width: 100%; /* от ширины блока div */
+  height: 40px;
+  background: none; /* убираем фон */
+  border: 1px solid #ccc; /* рамка */
+  border-radius: 20px; /* скругление полей формы */
+  -webkit-appearance: none; /* Chrome */
+  -moz-appearance: none; /* Firefox */
+  appearance: none; /* убираем дефолнтные стрелочки */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  color: #000;
+  padding-left: 23px;
+  padding-right: 22px;
+  font-family: "Montserrat";
+}
+.catalog_right_select:after {
+  content: "";
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  z-index: 1;
+  margin-top: -5px;
+  background-image: url(images/catalog_images/arrow.svg);
+  background-size: contain;
+  width: 20px;
+  height: 11px;
+  background-repeat: no-repeat;
+}
+.catalog_right_select_second {
+  width: 227px;
 }/*# sourceMappingURL=style.css.map */
