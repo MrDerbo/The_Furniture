@@ -201,4 +201,35 @@ body {
   -moz-column-gap: 32px;
        column-gap: 32px;
   padding-top: 12px;
+}
+.product_link {
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+.product_link_a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-decoration-line: underline;
+  color: #000;
+}
+
+.footer_box {
+  background-color: #F7F6F6;
+  background-size: cover;
+}
+
+.footer_content {
+  display: flex;
+}
+
+.footer_menu {
+  display: flex;
+  flex-direction: column;
+}
+.footer_menu_h1 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.26px;
 }/*# sourceMappingURL=style.css.map */

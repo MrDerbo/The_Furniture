@@ -212,4 +212,42 @@ body {
             padding-top: 12px;
         }
     }
+
+    &_link {
+        padding-top: 32px;
+        padding-bottom: 64px;
+
+        &_a {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            text-decoration-line: underline;
+            color: #000;    
+        }
+    }
+}
+
+
+.footer_box {
+    background-color: #F7F6F6;
+    background-size: cover;
+}
+.footer_content {
+    display: flex;
+}
+
+.footer_menu {
+    display: flex;
+    flex-direction: column;
+
+    &_logo {
+        
+    }
+
+    &_h1 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.26px;       
+    }
 }
