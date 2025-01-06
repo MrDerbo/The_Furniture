@@ -15,7 +15,116 @@ body {
 .main_box {
     height: 735px;
     background-repeat: no-repeat;
-    background-image: url(images/main_images/main_bgi);
+    background-image: url(images/main_images/main_bgi.jpg);
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
+}
+
+.head {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid #fff;
+
+    &_logo {
+        width: 198px;
+        height: 44px;        
+    }
+
+    &_input {
+        width: 288px;
+        height: 41px;
+        border-radius: 20px;
+        border: 1px solid #fff;
+        background-color: transparent;
+        padding-left: 32px;
+        padding-right: 32px;
+        box-sizing: border-box;
+        outline: none;
+        color: #fff;
+
+        &::placeholder {
+            color: #fff;
+            font-family: 'Montserrat';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.5px;
+        }
+    }
+
+    &_links {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.5px;
+        color: #fff;
+
+        &_box {
+            display: flex;
+            gap: 32px;
+        }
+    }
+}
+
+.main_text {
+    padding-top: 64px;
+
+    h1{
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 70px;
+        color: #fff;
+        padding-bottom: 16px;
+    }
+
+    p {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;  
+        color: #fff;   
+        padding-bottom: 16px;          
+    }
+
+    a {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-decoration-line: underline;
+        color: #fff;
+    }
+}
+
+.furniture_for_box {
+    padding-top: 64px;
+}
+
+.furniture_for_content {
+    display: grid;
+    
+}
+
+.furniture_for {
+    &_text {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 58.51px;       
+    }
+
+    &_1 {
+        background-image: url();
+    }
+    &_2 {
+        background-image: url();
+    }
+    &_3 {
+        background-image: url();
+    }
+    &_4 {
+        background-image: url();
+    }
+    &_5 {
+        background-image: url();
+    }
 }
