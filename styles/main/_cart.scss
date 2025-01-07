@@ -1,10 +1,53 @@
+ @keyframes shake-bottom {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: 50% 100%;
+      }
+    100% {
+      transform: rotate(0deg);
+      transform-origin: 50% 100%;
+    }
+    10% {
+      transform: rotate(2deg);
+    }
+    20% {
+        transform: rotate(-4deg);
+      }
+    40% {
+        transform: rotate(-4deg);
+      }
+    60% {
+      transform: rotate(-4deg);
+    }
+    30% {
+        transform: rotate(4deg);
+      }
+    50% {
+        transform: rotate(4deg);
+      }
+    70% {
+      transform: rotate(4deg);
+    }
+    80% {
+      transform: rotate(-2deg);
+    }
+    90% {
+      transform: rotate(2deg);
+    }
+  }
+  
+
 
 .main_box_cart {
     height: 400px;
     background-image: url(images/main_images/cart_bgi.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}   
+}
+
+.main_text {
+    padding-top: 128px;
+}
 
 .cart_box {
     padding-top: 64px;
@@ -137,6 +180,18 @@
                 background-color: #000;
                 color: #fff;
             }
+
+            &_result {
+                width: 290px;
+                height: 41px;
+                animation: shake-bottom 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2s both;
+
+                &_box {
+                    padding-top: 18px;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
         }
     }
 
@@ -158,6 +213,44 @@
                 line-height: 29.26px;
                 display: flex;
                 justify-content: center;
+            }
+
+            h4{
+                padding-top: 64px;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 29.26px;
+                display: flex;
+                justify-content: center;         
+            }
+            
+            span {
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 29.26px;
+                font-family: 'Montserrat';      
+            }
+        }
+
+        &_input {
+            width: 288px;
+            background: transparent;
+            border: none;
+            outline: none;
+            padding-bottom: 3px;
+            border-bottom: 0.5px solid #CACDD8;
+
+            &::placeholder {
+                font-family: 'Montserrat';
+            }
+
+
+            &_box {
+                display: flex;
+                flex-direction: column;
+                row-gap: 41px;
+                padding-top: 35px;
+                padding-left: 27px;
             }
         }
     }
