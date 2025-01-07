@@ -607,4 +607,29 @@ body {
   row-gap: 41px;
   padding-top: 35px;
   padding-left: 27px;
+}
+
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 393px);
+    padding-right: calc(50% - 393px);
+  }
+  .product_content {
+    gap: 29px;
+  }
+  .footer_menu_zero {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .cart_content {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+  }
+  .cart_left {
+    grid-column: span 8;
+  }
+  .cart_right {
+    grid-column: span 4;
+  }
 }/*# sourceMappingURL=style.css.map */

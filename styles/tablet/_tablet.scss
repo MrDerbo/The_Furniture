@@ -1,0 +1,16 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+
+    .product_content {
+        gap: 29px;
+    }
+
+    .footer_menu {
+        &_zero {
+            display: none;
+        }
+    }
+}
