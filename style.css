@@ -429,6 +429,8 @@ body {
 
 .main_text_cart {
   padding-top: 128px;
+}
+.main_text_cart h1 {
   font-size: 64px;
   font-weight: 600;
   line-height: 70px;
