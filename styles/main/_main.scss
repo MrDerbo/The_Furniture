@@ -27,6 +27,10 @@ body {
     align-items: center;
     border-bottom: 0.5px solid #fff;
 
+    &_mobile {
+        display: none;
+    }
+
     &_logo {
         width: 198px;
         height: 44px;
@@ -108,7 +112,6 @@ body {
     padding-top: 32px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    height: 856px;
     column-gap: 32px;
     row-gap: 32px;
 
