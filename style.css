@@ -275,6 +275,7 @@ body {
   box-sizing: border-box;
   padding-left: 17px;
   padding-right: 17px;
+  outline: none;
 }
 .footer_menu_input::-moz-placeholder {
   font-family: "Montserrat";
@@ -290,6 +291,9 @@ body {
   line-height: 14.63px;
   color: #C4C4C4;
 }
+.footer_menu_input:focus {
+  color: #c4c4c4;
+}
 .footer_menu_button {
   width: 260px;
   height: 40px;
@@ -297,6 +301,7 @@ body {
   background: rgba(222, 215, 215, 0.4117647059);
   border: transparent;
   font-family: "Montserrat";
+  cursor: pointer;
 }
 
 .main_box_catalog {
