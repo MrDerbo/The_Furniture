@@ -1,0 +1,26 @@
+@media (max-width: 767px) {
+    .main_text_catalog {
+        h1{font-size: 48px;
+        font-weight: 600;
+        line-height: 58.51px;
+        text-align: center;
+        padding-top: 82px;
+        }
+    }
+
+    .catalog_box {
+        flex-direction: column;
+    }
+
+    .catalog_right {
+        display: none;
+        
+        &_mobile {
+            padding-top: 14px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+        }
+    }
+
+}

@@ -3,6 +3,7 @@
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .main_text_catalog {
@@ -39,6 +40,10 @@
     &_right {
         display: flex;
         column-gap: 10px;
+
+        &_mobile {
+            display: none;
+        }
 
         &_select {
             position: relative;

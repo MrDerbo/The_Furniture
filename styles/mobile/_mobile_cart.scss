@@ -1,13 +1,29 @@
 @media (max-width: 767px) {
     .main_text_cart {
+        padding-top: 82px;
         h1{
             font-size: 48px;
             font-weight: 600;
             line-height: 58.51px;
             text-align: center;
+            
         }
     }
 
-    
+    .cart_content {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .cart_left {
+        grid-column: span 4;
+
+        &_info_box {
+            padding-left: 0;
+        }
+
+        &_img {
+            display: none;
+        }
+    }
 
 }
