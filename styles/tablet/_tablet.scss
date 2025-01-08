@@ -4,6 +4,12 @@
         padding-right: calc(50% - 393px);
     }
 
+    .furniture_for {
+        &_item {
+            height: 265px;
+        }
+    }
+
     .product_content {
         gap: 29px;
     }

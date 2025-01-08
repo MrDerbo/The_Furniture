@@ -1,7 +1,7 @@
 @media (max-width: 767px) {
     .center {
-        padding-left: calc(50% - 168px);
-        padding-right: calc(50% - 168px);
+        padding-left: calc(50% - 171px);
+        padding-right: calc(50% - 171px);
     }
     
     .head {
@@ -78,8 +78,32 @@
             font-size: 24px;
             font-weight: 600;
             line-height: 29.26px;
-            width: 178px;
-            height: 29px;
+        }
+
+        &_box {
+            padding-top: 32px;
+        }
+
+        &_img {
+            width: 343px;
         }
     }
+
+    .footer_content {
+        flex-direction: column;
+
+        &_mobile {
+            display: flex;
+        }
+    }
+
+    .footer_menu {
+
+        &_third {
+            padding-top: 70px;
+            padding-left: 40px;
+        }
+    }
+
+    
 }

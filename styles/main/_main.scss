@@ -236,11 +236,14 @@ body {
 .footer_box {
     background-color: #F7F6F6;
     background-size: cover;
-    height: 207px;
 }
 .footer_content {
     display: flex;
     padding-top: 32px;
+
+    &_mobile {
+        display: flex;
+    }
 }
 
 .footer_menu {
