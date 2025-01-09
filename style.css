@@ -731,8 +731,8 @@ body {
   .footer_content {
     flex-direction: column;
   }
-  .footer_content_mobile {
-    display: flex;
+  .footer_menu_first {
+    padding-right: 100px;
   }
   .footer_menu_third {
     padding-top: 70px;

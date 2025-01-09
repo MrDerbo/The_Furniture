@@ -95,13 +95,13 @@
 
     .footer_content {
         flex-direction: column;
-
-        &_mobile {
-            display: flex;
-        }
     }
 
     .footer_menu {
+
+        &_first {
+            padding-right: 100px;
+        }
 
         &_third {
             padding-top: 70px;
